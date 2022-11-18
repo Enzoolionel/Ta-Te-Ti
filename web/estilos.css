@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tablero {
+    height: 310px;
+    width: 310px;
+    /* border: 1px solid red; */
+    padding: 2.5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px auto 30px;
+}
+
+.celda {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
